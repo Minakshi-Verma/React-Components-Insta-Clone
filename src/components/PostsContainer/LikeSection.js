@@ -1,6 +1,7 @@
 import React from 'react';
 
 const LikeSection = props => {
+  // export default function LikeSection (props){
   return (
     <div>
     <div
@@ -15,6 +16,7 @@ const LikeSection = props => {
       </div>
     </div>
     <p className="like-number">
+      {props.likes}
       
       likes</p>
 </div>
