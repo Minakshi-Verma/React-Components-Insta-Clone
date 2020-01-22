@@ -11,6 +11,10 @@ const Post = props => {
   // set up state for the likes
   const[likes, setLikes] = useState(props.post.likes);
   // console.log(props.data.likes)
+ 
+  // const likePost = () =>{
+  //   setLikes(likes+1)
+  //   }
 
 
   return (
