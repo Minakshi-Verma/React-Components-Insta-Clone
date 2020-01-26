@@ -22,9 +22,6 @@ const App = () => {
       <SearchBar />
       <PostsPage data = {data}/>
 
-      
-
-
     </div>
   );
 };
